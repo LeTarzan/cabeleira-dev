@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Cabeleira Dev</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" />
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+  <script src="https://kit.fontawesome.com/d141f847ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div>
+    <header>
+      <a href="#"><img src="./img/logo.png" alt="Cabeleira Dev"></a>
+      <nav>
+        <a href="#aboutme">Sobre mim</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Projetos</a>
+        <a href="#team">Equipe</a>
+      </nav>
+    </header>
+
+    <section class="mainContent">
+      <img src="./img/logoEscuro.png" alt="Cabeleira Dev">
+    </section>
+
+    <section id="aboutme" class="aboutme">
+      <div>
+        <img src="./img/eu.jpg" alt="Leandro">
+      </div>
+      <div class="description">
+        <h6>
+          Olá, esse carinha da foto conhecido como Leandro Damasceno sou eu.
+          Tenho 20 anos, curso Ciências da Computação e atuo como Desenvolvedor Full Stack Júnior.
+        </h6>
+        <h6>
+          Comecei essa jornada no mundo da tecnologia em 2017, quando iniciei um curso técnico de infomática
+          na ETEC de Cotia, foi lá que decidi seguir nessa área.
+          Em 2020, fiz minha matrícula na Faculdade Impacta e sigo escrevendo essa história.
+        </h6>
+        <h6>
+          Tento aproveitar ao máximo a habilidade de aprender rápido novas tecnologias, então normalmente
+          sempre tento estar aprendendo algo novo, afinal estimula o cérebro.
+        </h6>
+        <h6>
+          Para ver meu currículo completo, <u><a href="cv.pdf" download="cv.pdf">clique aqui.</a></u>
+        </h6>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h5>Estudo desenvolvimento de sistemas desde 2017, nessa jornada sem fim desenvolvi várias habilidades, tais como:
+      </h5>
+
+      <div class="skills-content">
+        <div class="skills-items">
+          <h6>Front-End</h6>
+          <ul>
+            <li>React</li>
+            <li>Angular</li>
+          </ul>
+        </div>
+        <div class="skills-items">
+          <h6>Back-End</h6>
+          <ul>
+            <li>Node (Javascript/Typescript)</li>
+            <li>PHP</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="skills-items">
+          <h6>Mobile (Android)</h6>
+          <ul>
+            <li>React Native</li>
+          </ul>
+        </div>
+        <div class="skills-items">
+          <h6>DB's</h6>
+          <ul>
+            <li>SQL (DDL, DML, DQL)</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="skills-items">
+          <h6>Outros</h6>
+          <ul>
+            <li>Git</li>
+            <li>Scrum</li>
+            <li>Testes unitários</li>
+            <li>AWS (S3)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="projects" class="projects">
+      <h5>Dentre esse curto período de estudo desenvolvi alguns projetos que me fizeram evoluir bastante
+        diante tantos desafios, alguns deles são: </h5>
+      <p><i>(clique na imagem do projeto para acessar o repositório).</i></p>
+
+      <div class="project">
+        <div class="project-description">
+          <h5>• API Rest para controle de vendas</h5>
+          <h6>Projeto com estrutura MVC feito em Express.js, conta com aproximadante 50 endpoints. Conta com o ORM Knex,
+            o Autenticador Passport junto a um banco de dados PostgresSQL.</h6>
+        </div>
+        <a href="https://github.com/LeTarzan/mickart-backend">
+          <img class="project-img" src="./img/Api.JPG" alt="Cabeleira Dev">
+        </a>
+      </div>
+
+      <div class="project">
+        <div class="project-description">
+          <h5>• Sistema Web para controle de vendas</h5>
+          <h6>Projeto desenvolvido com ReactJS, com o objetivo de atender um controle simples de vendas e ser de fácil
+            manuseio.</h6>
+        </div>
+        <a href="https://github.com/LeTarzan/mickart-fronted">
+          <img class="project-img" src="./img/mickarte-site.JPG" alt="Cabeleira Dev">
+        </a>
+      </div>
+
+    </section>
+
+    <section id="team" class="team">
+      <h5>É claro que nada disso foi feito num piscar de olhos, foi um trabalho duro junto a esta excelente equipe:</h5>
+      <div class="devs">
+        <div class="dev">
+          <img class="dev-img" src="img/eu-back.jpg" alt="Cabeleira Dev">
+          <h6>Leandro</h6>
+          <h6><i>Desenvolvedor Front-End</i></h6>
+        </div>
+        <div class="dev">
+          <img class="dev-img" src="img/eu-front.jpg" alt="Cabeleira Dev">
+          <h6>Lê</h6>
+          <h6><i>Desenvolvedor Back-End</i></h6>
+        </div>
+        <div class="dev">
+          <img class="dev-img" src="img/eu-mobile.jpg" alt="Cabeleira Dev">
+          <h6>Lelê</h6>
+          <h6><i>Desenvolvedor Mobile</i></h6>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+
+      <div class="contact">
+        <a href="https://api.whatsapp.com/send?phone=5511959320475&text=Ol%C3%A1%2C%20tudo%20bem%3F%20"><i class="fa fa-whatsapp icons fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/leandro-damasceno"><i class="fa fa-linkedin icons fa-2x" aria-hidden="true"></i></a>
+        <a href="mailto:leandrorevolve@gmail.com"><i class="fa fa-envelope-o icons fa-2x" aria-hidden="true"></i></a>
+      </div>
+  
+      <h6>Todos direitos resevados • Leandro Damasceno • Cabeleira Dev</h6>
+    </footer>
+
+  </div>
+</body>
+
+</html>
