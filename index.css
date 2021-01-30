@@ -248,6 +248,9 @@ hr {
     height: 200px;
     border-radius: 5px;
   }
+  .projects h5 {
+    padding: 0 10px;
+  }
 }
 
 /* Team */
@@ -291,7 +294,7 @@ hr {
 
 @media (max-width: 700px) {
   .team {
-    height: 135vh;
+    height: 175vh;
     flex-direction: column;
   }
   .team h5 {
